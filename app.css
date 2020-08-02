@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #93cb62;
+}
+
+body {
+  font-family: 'Rowdies', cursive;
+}
+
+.container {
+  overflow: hidden;
+}
+.brand-logo {
+  position: static !important;
+  display: inline !important;
+}
+
+.primary-text {
+  color: var(--primary-color);
+}
+
+button {
+  font-weight: 600;
+  border-radius: 7px !important;
+  /* white-space: nowrap; */
+}
+button i {
+  font-size: 1rem;
+}
+
+button + button {
+  margin-left: 0.5rem;
+}
+
+.meal-editBtn {
+  cursor: pointer;
+}
+
+.meal-calories {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: normal;
+}
+
+.meal-editBtn:hover {
+  color: purple;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+@media (max-width: 450px) {
+  .brand-logo {
+    font-size: 1.6rem !important;
+  }
+  nav ul button {
+    font-size: 0.75rem !important;
+  }
+}
